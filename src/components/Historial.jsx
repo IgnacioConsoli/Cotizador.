@@ -26,7 +26,7 @@ function Historial() {
                             <h3>Propiedad: {opcion.propiedad.tipo}</h3>
                             <h3>Ubicación: {opcion.ubicacion.tipo}</h3>
                             <h3>Metros cuadrados: {opcion.metrosCuadrados}</h3>
-                            <h3>Póliza mensual: {opcion.poliza}</h3>
+                            <h3>Póliza mensual: {opcion.poliza.toFixed(2)}</h3>
                         </div>
                     </div>
                 ))
